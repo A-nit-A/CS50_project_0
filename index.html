@@ -9,8 +9,7 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="CSS/bootstrap.css">
-  <link rel="stylesheet" href="CSS/me.css">
-  <link rel="stylesheet" href="CSS/me_sass.css">
+  <link rel="stylesheet" href="CSS/index.css">
 
   <!-- Title -->
   <title>Ricardo</title>
@@ -43,7 +42,8 @@
     </div>
   </nav>
 
-  <div class="Me-image Opening-image">
+  <!-- Header image -->
+  <div id="me" class="Index_image Header_image">
     <div class="text">
       <h1 TextType=shadow size="large">I'm Ricardo</h1>
       <h3 TextType=shadow> And I'm an Alien</h3>
@@ -52,41 +52,79 @@
 
   <!-- Bio -->
   <div>
-    <p class="text-justify text-white h2 text-center">
+    <p>
       Born in Corón (Vilanova de Arousa) but vigués adoption
     </p>
-    <p class="text-justify text-white h4 text-center">
+    <p>
       Enough years to have some head when getting lost
     </p>
-    <p class="text-justify text-white h4 text-center">
-      Automation engineer, beer lover and <a
+    <p>
+      Automation engineer, arcade gamer, beer lover and <a
         href="https://lacocinadefrabisa.lavozdegalicia.es/filloas-gallegas-de-aldea/"> filloas freak</a>
     </p>
   </div>
 
-  <div id="Beer_table">
-    <br></br>
-    <p>Beer styles I like it and one I hate!</p>
-  
-    <div class="container">
-      <div class="row">
-        <div class="col-lg rounded bg-info">
-          IPA, only craft beer
-        </div>
-        <div class="col-lg rounded bg-info">
-          Czech Pilsner, only in Czech Republic
-        </div>
-        <div class="col-lg rounded bg-info">
-          Weissbier, only in Germany
-        </div>
-        <div class="col-lg rounded bg-danger">
-          Kolsch, please don´t drink
-        </div>
+  <!-- Beers -->
+  <div id="Bootstrap_Columns" class="container">
+    <div class="row justify-content-md-center">
+      <div class="col col-lg-2">
+        <p>Beer styles I like it and one I hate!</p>
+        <ul>
+          <li>IPA, only craft beer</li>
+          <li>Pilsner, only in Czech Republic</li>
+          <li>Weissbier, only in Germany</li>
+          <li>Kolsch, please don´t drink!</li>
+        </ul>
+
+      </div>
+      <div class="col col-lg-2">
+        <p>Top 5 beers</p>
+        <ol>
+          <li>942</li>
+          <li>Grimbergen Blanche</li>
+          <li>Punk IPA</li>
+          <li>König Ludwig Weissbier</li>
+          <li>o'hara's Irish Stout</li>
+          <li>Estrella galicia en caña</li>
+        </ol>
+
+      </div>
+      <div class="col col-lg-6">
+        <p>Best arcade games ever</p>
+        <table class="table table-dark">
+          <thead class="thead-light">
+            <tr>
+              <th>Game</th>
+              <th>Company</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Out Run</td>
+              <td>Sega</td>
+              <td>86</td>
+            </tr>
+            <tr>
+              <td>BurgerTime</td>
+              <td>Data East</td>
+              <td>1982</td>
+            </tr>
+            <tr>
+              <td>Kung-Fu Master</td>
+              <td>Irem</td>
+              <td>1984</td>
+            </tr>
+            <tr>
+              <td>Ghosts 'n Goblins</td>
+              <td>Capcom</td>
+              <td>1985</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>
-
-  <br></br>
 
   <!-- Bootstrap Javascript -->
   <script src="JS/jquery-3.5.1.min.js"></script>
