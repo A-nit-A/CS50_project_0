@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,IAAI,CAAC;EAED,gBAAgB,EALE,OAAO;CAQ5B;;AAED,AAEI,WAFO,CAEP,CAAC,CAAC;EAEE,KAAK,EAbG,OAAO;EAcf,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,QAAQ;EACnB,cAAc,EAAE,MAAM;CACzB;;AARL,AASI,WATO,CASP,GAAG,CAAA;EAEC,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,KAAK;EAChB,cAAc,EAAE,MAAM;CACzB",
+    "sources": [
+        "future.scss"
+    ],
+    "names": [],
+    "file": "future.css"
+}
