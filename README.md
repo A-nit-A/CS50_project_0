@@ -16,5 +16,15 @@ Index.html
 
     -    Usa como fichero CSS index.css donde se prueban diferentes typos de selectores y propiedades CSS. También hay un parte mobile-responsive @media que cambia la foto para pantallas de menos de 1000px.
 
-    -   Tiene una imagen en la cabecera, una lista ordenada y otra sin ordenar.
+    -   Tiene una imagen en la cabecera, una lista ordenada, otra sin ordenar y una tabla.
+
+    -   Se utiliza el grid model de bootstrap para mostrar las listas y la tabla.
+
+    -  
+
+Home.html
+
+    - Usa los componentes jumbotron y table de bootstrap. Tambien las utilidades para texto de bootstrap.
+
+    
 
