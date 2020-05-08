@@ -1,17 +1,36 @@
 body {
-  background-color: #171e25;
-}
-
-#Beer_table p {
+  background-color: #050505;
   color: #d1d1d1;
-  text-align: center;
-  font-size: xx-large;
-  vertical-align: middle;
 }
 
-#Beer_table div {
+h1 .TextWithBackground, p .TextWithBackground {
+  background-color: #dddddd;
+  color: #272727;
+}
+
+.content {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.padding_min {
+  padding: 1%;
+}
+
+.padding_med {
+  padding: 2%;
+}
+
+.padding_high {
+  padding: 5%;
+}
+
+.padding_max {
+  padding: 10%;
+}
+
+.center {
   text-align: center;
-  font-size: large;
-  vertical-align: middle;
 }
 /*# sourceMappingURL=world.css.map */
