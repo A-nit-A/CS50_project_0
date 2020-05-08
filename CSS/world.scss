@@ -1,0 +1,26 @@
+$me_background_color: #171e25;
+$me_text_color: #d1d1d1;
+
+body {
+
+    background-color: $me_background_color; 
+    
+
+}
+
+#Beer_table{
+    
+    p {
+
+        color: $me_text_color;
+        text-align: center;
+        font-size: xx-large;
+        vertical-align: middle;
+    }
+    div{
+
+        text-align: center;
+        font-size: large;
+        vertical-align: middle;
+    }
+}
