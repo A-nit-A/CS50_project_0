@@ -26,5 +26,15 @@ home.html
 
     - Usa los componentes jumbotron y table de bootstrap. Tambien las utilidades para texto de bootstrap.
 
+world.html
+
+    - Se usa world.scss como fuente de world.css. En este fichero SASS se definen varias variables, hay NESTING y INHERITANCE.
+
+future.html
+
+    - Se usa future.scss como fuente de future.css. En este fichero SASS se definen varias variables, hay NESTING y INHERITANCE.
+
+
+
     
 

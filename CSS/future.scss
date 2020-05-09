@@ -1,26 +1,81 @@
-$me_background_color: #171e25;
-$me_text_color: #d1d1d1;
+$me_PageBackgroundColor: #ffffff;
+$me_PageTextColor: #d1d1d1;
+$me_PageTextColorAlt: #272727;
+$me_TextBackgroundColor: #dddddd ;
+
+$me_Padding_min: 1%;
+$me_Padding_med: 2%;
+$me_Padding_high: 5%;
+$me_Padding_max: 10%;
 
 body {
 
-    background-color: $me_background_color; 
-    
+    background-color: $me_PageBackgroundColor; 
+    color: $me_PageTextColor;
 
 }
 
-#Beer_table{
+h1{
     
-    p {
+    .TextWithBackground {
 
-        color: $me_text_color;
-        text-align: center;
-        font-size: xx-large;
-        vertical-align: middle;
-    }
-    div{
+        background-color: $me_TextBackgroundColor;
+        color: $me_PageTextColorAlt;
 
-        text-align: center;
-        font-size: large;
-        vertical-align: middle;
     }
+
+}
+
+p{
+    @extend h1;
+}
+
+.content{
+
+    max-width:1400px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.padding_min{
+
+    padding: $me_Padding_min;
+
+}
+
+.padding_med{
+
+    padding: $me_Padding_med;
+    
+}
+
+.padding_high{
+
+    padding: $me_Padding_high;
+    
+}
+
+.padding_max{
+
+    padding: $me_Padding_max;
+    
+}
+
+.center{
+
+    text-align: center;
+}
+
+div.shape_white {
+
+    display: block;
+    margin: 16px;
+    padding: 16px;
+    background-color: white;
+    color: $me_PageTextColorAlt;
+    border-color: white;
+    border-style: solid;
+
+    box-shadow:  5px 10px 18px #888888;
 }

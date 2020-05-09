@@ -33,4 +33,16 @@ h1 .TextWithBackground, p .TextWithBackground {
 .center {
   text-align: center;
 }
+
+div.shape_white {
+  display: block;
+  margin: 16px;
+  padding: 16px;
+  background-color: white;
+  color: #272727;
+  border-color: white;
+  border-style: solid;
+  -webkit-box-shadow: 4px 6px 14px #f3f3f398;
+          box-shadow: 4px 6px 14px #f3f3f398;
+}
 /*# sourceMappingURL=world.css.map */
