@@ -7,7 +7,7 @@ Hay 4 páginas web con los siguientes nombres:
 - index.html, la principal.
 - home.html.
 - world.html.
-- future.html.
+- past.html.
 
 En la parte superior hay una barra de navegación para acceder a todas las páginas.
 La barra de navegación es igual para todas las páginas.
@@ -30,9 +30,9 @@ world.html
 
     - Se usa world.scss como fuente de world.css. En este fichero SASS se definen varias variables, hay NESTING y INHERITANCE.
 
-future.html
+past.html
 
-    - Se usa future.scss como fuente de future.css. En este fichero SASS se definen varias variables, hay NESTING y INHERITANCE.
+    - Se usa Past.scss como fuente de Past.css. En este fichero SASS se definen varias variables, hay NESTING y INHERITANCE.
 
 
 

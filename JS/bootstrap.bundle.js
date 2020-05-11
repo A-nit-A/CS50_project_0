@@ -2864,7 +2864,7 @@
       return modifier.name === 'applyStyle';
     }).gpuAcceleration;
     if (legacyGpuAccelerationOption !== undefined) {
-      console.warn('WARNING: `gpuAcceleration` option moved to `computeStyle` modifier and will not be supported in future versions of Popper.js!');
+      console.warn('WARNING: `gpuAcceleration` option moved to `computeStyle` modifier and will not be supported in Past versions of Popper.js!');
     }
     var gpuAcceleration = legacyGpuAccelerationOption !== undefined ? legacyGpuAccelerationOption : options.gpuAcceleration;
 
@@ -3218,7 +3218,7 @@
         data.placement = placement + (variation ? '-' + variation : '');
 
         // this object contains `position`, we want to preserve it along with
-        // any additional property we may add in the future
+        // any additional property we may add in the Past
         data.offsets.popper = _extends({}, data.offsets.popper, getPopperOffsets(data.instance.popper, data.offsets.reference, data.placement));
 
         data = runModifiers(data.instance.modifiers, data, 'flip');
@@ -3872,7 +3872,7 @@
      *
      * This modifier has `850` as `order` value to maintain backward compatibility
      * with previous versions of Popper.js. Expect the modifiers ordering method
-     * to change in future major versions of the library.
+     * to change in Past major versions of the library.
      *
      * @memberof modifiers
      * @inner
